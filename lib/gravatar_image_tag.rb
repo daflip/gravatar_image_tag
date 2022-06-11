@@ -118,7 +118,7 @@ module GravatarImageTag
 
     def self.value_cleaner(value)
       value = value.to_s
-      URI.encode(value)
+      ERB::Util.url_encode(value)
     end
 
 end
