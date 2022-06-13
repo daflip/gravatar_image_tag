@@ -52,6 +52,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<actionpack>, ["~> 3.2.0"])
     s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<guard>, [">= 0"])
+    s.add_dependency(%q<addressable>, [">= 0"])
     s.add_dependency(%q<guard-rspec>, [">= 0"])
     s.add_dependency(%q<rb-fsevent>, ["~> 0.9"])
     s.add_dependency(%q<jeweler>, [">= 0"])
